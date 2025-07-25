@@ -1,48 +1,117 @@
 <!DOCTYPE html>
-<html lang="tr">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Fotoğraf Galerim</title>
-    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Sophia Williams - Portfolio</title>
+    <link rel="stylesheet" href="dist/output.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css" />
   </head>
-  <body class="bg-black text-white min-h-screen">
-    <header class="text-center py-6">
-      <h1 class="text-4xl font-bold">📸 Fotoğraf Galerim</h1>
-      <p class="text-gray-400 mt-2">Erkut İlaslener - Portfolio</p>
+  <body class="bg-white text-gray-900 dark:bg-gray-900 dark:text-white">
+    <header class="bg-white shadow dark:bg-gray-800">
+      <div class="container mx-auto px-4 py-4 flex items-center justify-between">
+        <h1 class="text-2xl font-bold">Sophia Williams</h1>
+        <nav class="space-x-4">
+          <a href="#portfolio" class="hover:underline">Portfolio</a>
+          <a href="#about" class="hover:underline">About</a>
+          <a href="#contact" class="hover:underline">Contact</a>
+        </nav>
+      </div>
     </header>
 
-    <main class="px-4 max-w-6xl mx-auto">
-      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
-        <!-- Fotoğraflar -->
-        <img src="https://res.cloudinary.com/dulj6p1jb/image/upload/v1753433560/0000079853-719_enmfsq.jpg" class="w-full h-auto rounded-lg shadow-md hover:scale-105 transition duration-300" />
-        <img src="https://res.cloudinary.com/dulj6p1jb/image/upload/v1753433556/0000082692-189_v8t1qm.jpg" class="w-full h-auto rounded-lg shadow-md hover:scale-105 transition duration-300" />
-        <img src="https://res.cloudinary.com/dulj6p1jb/image/upload/v1753433556/0000079853-716_wqnogr.jpg" class="w-full h-auto rounded-lg shadow-md hover:scale-105 transition duration-300" />
-        <img src="https://res.cloudinary.com/dulj6p1jb/image/upload/v1753433554/0000079853-715_wik2xj.jpg" class="w-full h-auto rounded-lg shadow-md hover:scale-105 transition duration-300" />
-        <img src="https://res.cloudinary.com/dulj6p1jb/image/upload/v1753433551/0000079853-718_r67z2c.jpg" class="w-full h-auto rounded-lg shadow-md hover:scale-105 transition duration-300" />
-        <img src="https://res.cloudinary.com/dulj6p1jb/image/upload/v1753433550/0000079853-725_pl0hco.jpg" class="w-full h-auto rounded-lg shadow-md hover:scale-105 transition duration-300" />
-        <img src="https://res.cloudinary.com/dulj6p1jb/image/upload/v1753433540/0000079853-717_oyoep5.jpg" class="w-full h-auto rounded-lg shadow-md hover:scale-105 transition duration-300" />
-        <img src="https://res.cloudinary.com/dulj6p1jb/image/upload/v1753432556/0000079853-724_hyrrmd.jpg" class="w-full h-auto rounded-lg shadow-md hover:scale-105 transition duration-300" />
-        <img src="https://res.cloudinary.com/dulj6p1jb/image/upload/v1753432088/IMG_9570_mzknud.jpg" class="w-full h-auto rounded-lg shadow-md hover:scale-105 transition duration-300" />
-        <img src="https://res.cloudinary.com/dulj6p1jb/image/upload/v1753432086/9_16_kkhmi7.jpg" class="w-full h-auto rounded-lg shadow-md hover:scale-105 transition duration-300" />
-        <img src="https://res.cloudinary.com/dulj6p1jb/image/upload/v1753432082/9_14_duoixa.jpg" class="w-full h-auto rounded-lg shadow-md hover:scale-105 transition duration-300" />
-        <img src="https://res.cloudinary.com/dulj6p1jb/image/upload/v1753432081/IMG_5087_t1buff.jpg" class="w-full h-auto rounded-lg shadow-md hover:scale-105 transition duration-300" />
-        <img src="https://res.cloudinary.com/dulj6p1jb/image/upload/v1753432078/IMG_9541_ocuusb.jpg" class="w-full h-auto rounded-lg shadow-md hover:scale-105 transition duration-300" />
-        <img src="https://res.cloudinary.com/dulj6p1jb/image/upload/v1753432078/IMG_9566_ckoyrd.jpg" class="w-full h-auto rounded-lg shadow-md hover:scale-105 transition duration-300" />
-        <img src="https://res.cloudinary.com/dulj6p1jb/image/upload/v1753432058/IMG_9527_owoy4e.jpg" class="w-full h-auto rounded-lg shadow-md hover:scale-105 transition duration-300" />
-        <img src="https://res.cloudinary.com/dulj6p1jb/image/upload/v1753432057/IMG_9523_zfhouw.jpg" class="w-full h-auto rounded-lg shadow-md hover:scale-105 transition duration-300" />
-        <img src="https://res.cloudinary.com/dulj6p1jb/image/upload/v1753432056/IMG_5119_bebk8r.jpg" class="w-full h-auto rounded-lg shadow-md hover:scale-105 transition duration-300" />
-        <img src="https://res.cloudinary.com/dulj6p1jb/image/upload/v1753432050/ERK01641_kopya_dltm6w.jpg" class="w-full h-auto rounded-lg shadow-md hover:scale-105 transition duration-300" />
-        <img src="https://res.cloudinary.com/dulj6p1jb/image/upload/v1753432043/0000079853-730_x3tfak.jpg" class="w-full h-auto rounded-lg shadow-md hover:scale-105 transition duration-300" />
-        <img src="https://res.cloudinary.com/dulj6p1jb/image/upload/v1753432034/0000079853-731_cx5fyd.jpg" class="w-full h-auto rounded-lg shadow-md hover:scale-105 transition duration-300" />
-        <img src="https://res.cloudinary.com/dulj6p1jb/image/upload/v1753432033/IMG_5191_lz3iy3.jpg" class="w-full h-auto rounded-lg shadow-md hover:scale-105 transition duration-300" />
-        <img src="https://res.cloudinary.com/dulj6p1jb/image/upload/v1753432027/IMG_5442_byidk8.jpg" class="w-full h-auto rounded-lg shadow-md hover:scale-105 transition duration-300" />
-        <img src="https://res.cloudinary.com/dulj6p1jb/image/upload/v1753432023/IMG_7338_u09rjz.jpg" class="w-full h-auto rounded-lg shadow-md hover:scale-105 transition duration-300" />
+    <section id="portfolio" class="container mx-auto px-4 py-8">
+      <h2 class="text-3xl font-semibold mb-6">Portfolio</h2>
+      <div class="grid grid-cols-1 gap-4 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5">
+        <a href="https://res.cloudinary.com/dulj6p1jb/image/upload/v1753433560/0000079853-719_enmfsq.jpg" data-fancybox="gallery">
+          <img src="https://res.cloudinary.com/dulj6p1jb/image/upload/v1753433560/0000079853-719_enmfsq.jpg" alt="image 1" class="w-full h-auto rounded-lg shadow-md" />
+        </a>
+        <a href="https://res.cloudinary.com/dulj6p1jb/image/upload/v1753433556/0000082692-189_v8t1qm.jpg" data-fancybox="gallery">
+          <img src="https://res.cloudinary.com/dulj6p1jb/image/upload/v1753433556/0000082692-189_v8t1qm.jpg" alt="image 2" class="w-full h-auto rounded-lg shadow-md" />
+        </a>
+        <a href="https://res.cloudinary.com/dulj6p1jb/image/upload/v1753433556/0000079853-716_wqnogr.jpg" data-fancybox="gallery">
+          <img src="https://res.cloudinary.com/dulj6p1jb/image/upload/v1753433556/0000079853-716_wqnogr.jpg" alt="image 3" class="w-full h-auto rounded-lg shadow-md" />
+        </a>
+        <a href="https://res.cloudinary.com/dulj6p1jb/image/upload/v1753433554/0000079853-715_wik2xj.jpg" data-fancybox="gallery">
+          <img src="https://res.cloudinary.com/dulj6p1jb/image/upload/v1753433554/0000079853-715_wik2xj.jpg" alt="image 4" class="w-full h-auto rounded-lg shadow-md" />
+        </a>
+        <a href="https://res.cloudinary.com/dulj6p1jb/image/upload/v1753433551/0000079853-718_r67z2c.jpg" data-fancybox="gallery">
+          <img src="https://res.cloudinary.com/dulj6p1jb/image/upload/v1753433551/0000079853-718_r67z2c.jpg" alt="image 5" class="w-full h-auto rounded-lg shadow-md" />
+        </a>
+        <a href="https://res.cloudinary.com/dulj6p1jb/image/upload/v1753433550/0000079853-725_pl0hco.jpg" data-fancybox="gallery">
+          <img src="https://res.cloudinary.com/dulj6p1jb/image/upload/v1753433550/0000079853-725_pl0hco.jpg" alt="image 6" class="w-full h-auto rounded-lg shadow-md" />
+        </a>
+        <a href="https://res.cloudinary.com/dulj6p1jb/image/upload/v1753433540/0000079853-717_oyoep5.jpg" data-fancybox="gallery">
+          <img src="https://res.cloudinary.com/dulj6p1jb/image/upload/v1753433540/0000079853-717_oyoep5.jpg" alt="image 7" class="w-full h-auto rounded-lg shadow-md" />
+        </a>
+        <a href="https://res.cloudinary.com/dulj6p1jb/image/upload/v1753432556/0000079853-724_hyrrmd.jpg" data-fancybox="gallery">
+          <img src="https://res.cloudinary.com/dulj6p1jb/image/upload/v1753432556/0000079853-724_hyrrmd.jpg" alt="image 8" class="w-full h-auto rounded-lg shadow-md" />
+        </a>
+        <a href="https://res.cloudinary.com/dulj6p1jb/image/upload/v1753432088/IMG_9570_mzknud.jpg" data-fancybox="gallery">
+          <img src="https://res.cloudinary.com/dulj6p1jb/image/upload/v1753432088/IMG_9570_mzknud.jpg" alt="image 9" class="w-full h-auto rounded-lg shadow-md" />
+        </a>
+        <a href="https://res.cloudinary.com/dulj6p1jb/image/upload/v1753432086/9_16_kkhmi7.jpg" data-fancybox="gallery">
+          <img src="https://res.cloudinary.com/dulj6p1jb/image/upload/v1753432086/9_16_kkhmi7.jpg" alt="image 10" class="w-full h-auto rounded-lg shadow-md" />
+        </a>
+        <a href="https://res.cloudinary.com/dulj6p1jb/image/upload/v1753432082/9_14_duoixa.jpg" data-fancybox="gallery">
+          <img src="https://res.cloudinary.com/dulj6p1jb/image/upload/v1753432082/9_14_duoixa.jpg" alt="image 11" class="w-full h-auto rounded-lg shadow-md" />
+        </a>
+        <a href="https://res.cloudinary.com/dulj6p1jb/image/upload/v1753432081/IMG_5087_t1buff.jpg" data-fancybox="gallery">
+          <img src="https://res.cloudinary.com/dulj6p1jb/image/upload/v1753432081/IMG_5087_t1buff.jpg" alt="image 12" class="w-full h-auto rounded-lg shadow-md" />
+        </a>
+        <a href="https://res.cloudinary.com/dulj6p1jb/image/upload/v1753432078/IMG_9541_ocuusb.jpg" data-fancybox="gallery">
+          <img src="https://res.cloudinary.com/dulj6p1jb/image/upload/v1753432078/IMG_9541_ocuusb.jpg" alt="image 13" class="w-full h-auto rounded-lg shadow-md" />
+        </a>
+        <a href="https://res.cloudinary.com/dulj6p1jb/image/upload/v1753432078/IMG_9566_ckoyrd.jpg" data-fancybox="gallery">
+          <img src="https://res.cloudinary.com/dulj6p1jb/image/upload/v1753432078/IMG_9566_ckoyrd.jpg" alt="image 14" class="w-full h-auto rounded-lg shadow-md" />
+        </a>
+        <a href="https://res.cloudinary.com/dulj6p1jb/image/upload/v1753432058/IMG_9527_owoy4e.jpg" data-fancybox="gallery">
+          <img src="https://res.cloudinary.com/dulj6p1jb/image/upload/v1753432058/IMG_9527_owoy4e.jpg" alt="image 15" class="w-full h-auto rounded-lg shadow-md" />
+        </a>
+        <a href="https://res.cloudinary.com/dulj6p1jb/image/upload/v1753432057/IMG_9523_zfhouw.jpg" data-fancybox="gallery">
+          <img src="https://res.cloudinary.com/dulj6p1jb/image/upload/v1753432057/IMG_9523_zfhouw.jpg" alt="image 16" class="w-full h-auto rounded-lg shadow-md" />
+        </a>
+        <a href="https://res.cloudinary.com/dulj6p1jb/image/upload/v1753432056/IMG_5119_bebk8r.jpg" data-fancybox="gallery">
+          <img src="https://res.cloudinary.com/dulj6p1jb/image/upload/v1753432056/IMG_5119_bebk8r.jpg" alt="image 17" class="w-full h-auto rounded-lg shadow-md" />
+        </a>
+        <a href="https://res.cloudinary.com/dulj6p1jb/image/upload/v1753432050/ERK01641_kopya_dltm6w.jpg" data-fancybox="gallery">
+          <img src="https://res.cloudinary.com/dulj6p1jb/image/upload/v1753432050/ERK01641_kopya_dltm6w.jpg" alt="image 18" class="w-full h-auto rounded-lg shadow-md" />
+        </a>
+        <a href="https://res.cloudinary.com/dulj6p1jb/image/upload/v1753432043/0000079853-730_x3tfak.jpg" data-fancybox="gallery">
+          <img src="https://res.cloudinary.com/dulj6p1jb/image/upload/v1753432043/0000079853-730_x3tfak.jpg" alt="image 19" class="w-full h-auto rounded-lg shadow-md" />
+        </a>
+        <a href="https://res.cloudinary.com/dulj6p1jb/image/upload/v1753432034/0000079853-731_cx5fyd.jpg" data-fancybox="gallery">
+          <img src="https://res.cloudinary.com/dulj6p1jb/image/upload/v1753432034/0000079853-731_cx5fyd.jpg" alt="image 20" class="w-full h-auto rounded-lg shadow-md" />
+        </a>
+        <a href="https://res.cloudinary.com/dulj6p1jb/image/upload/v1753432033/IMG_5191_lz3iy3.jpg" data-fancybox="gallery">
+          <img src="https://res.cloudinary.com/dulj6p1jb/image/upload/v1753432033/IMG_5191_lz3iy3.jpg" alt="image 21" class="w-full h-auto rounded-lg shadow-md" />
+        </a>
+        <a href="https://res.cloudinary.com/dulj6p1jb/image/upload/v1753432027/IMG_5442_byidk8.jpg" data-fancybox="gallery">
+          <img src="https://res.cloudinary.com/dulj6p1jb/image/upload/v1753432027/IMG_5442_byidk8.jpg" alt="image 22" class="w-full h-auto rounded-lg shadow-md" />
+        </a>
+        <a href="https://res.cloudinary.com/dulj6p1jb/image/upload/v1753432023/IMG_7338_u09rjz.jpg" data-fancybox="gallery">
+          <img src="https://res.cloudinary.com/dulj6p1jb/image/upload/v1753432023/IMG_7338_u09rjz.jpg" alt="image 23" class="w-full h-auto rounded-lg shadow-md" />
+        </a>
       </div>
-    </main>
+    </section>
 
-    <footer class="text-center text-gray-500 py-6 text-sm">
-      © 2025 Erkut İlaslener. Tüm hakları saklıdır.
+    <section id="about" class="container mx-auto px-4 py-8">
+      <h2 class="text-3xl font-semibold mb-4">About Me</h2>
+      <p class="text-lg leading-relaxed">
+        I’m Sophia Williams, a visual storyteller with a passion for capturing the beauty of everyday moments. My work explores the intersection of light, shadow, and human connection.
+      </p>
+    </section>
+
+    <section id="contact" class="container mx-auto px-4 py-8">
+      <h2 class="text-3xl font-semibold mb-4">Contact</h2>
+      <p class="text-lg">Feel free to reach out via email: <a href="mailto:sophia@example.com" class="text-blue-600 dark:text-blue-400 hover:underline">sophia@example.com</a></p>
+    </section>
+
+    <footer class="bg-gray-100 dark:bg-gray-800 py-6 mt-8">
+      <div class="container mx-auto px-4 text-center">
+        <p class="text-sm text-gray-600 dark:text-gray-300">© 2025 Sophia Williams. All rights reserved.</p>
+      </div>
     </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.js"></script>
   </body>
 </html>
